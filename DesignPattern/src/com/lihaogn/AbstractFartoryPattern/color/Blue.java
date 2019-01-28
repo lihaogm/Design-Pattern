@@ -1,4 +1,4 @@
-package com.lihaogn.AbstractFartoryPattern;
+package com.lihaogn.AbstractFartoryPattern.color;
 
 public class Blue implements Color {
 

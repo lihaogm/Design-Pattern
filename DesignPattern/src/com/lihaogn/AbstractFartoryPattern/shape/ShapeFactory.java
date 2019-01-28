@@ -1,5 +1,7 @@
-package com.lihaogn.AbstractFartoryPattern;
+package com.lihaogn.AbstractFartoryPattern.shape;
 
+import com.lihaogn.AbstractFartoryPattern.AbstractFactory;
+import com.lihaogn.AbstractFartoryPattern.color.Color;
 
 public class ShapeFactory extends AbstractFactory {
 

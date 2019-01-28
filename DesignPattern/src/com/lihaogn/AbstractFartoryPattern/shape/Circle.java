@@ -1,4 +1,4 @@
-package com.lihaogn.AbstractFartoryPattern;
+package com.lihaogn.AbstractFartoryPattern.shape;
 
 public class Circle implements Shape {
 

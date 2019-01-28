@@ -1,5 +1,8 @@
 package com.lihaogn.AbstractFartoryPattern;
 
+import com.lihaogn.AbstractFartoryPattern.color.ColorFactory;
+import com.lihaogn.AbstractFartoryPattern.shape.ShapeFactory;
+
 public class FactoryProducer {
 
 	public static AbstractFactory getFactory(String choice) {

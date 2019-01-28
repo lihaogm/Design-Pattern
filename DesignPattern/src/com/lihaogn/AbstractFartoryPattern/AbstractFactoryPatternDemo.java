@@ -1,5 +1,8 @@
 package com.lihaogn.AbstractFartoryPattern;
 
+import com.lihaogn.AbstractFartoryPattern.color.Color;
+import com.lihaogn.AbstractFartoryPattern.shape.Shape;
+
 public class AbstractFactoryPatternDemo {
 
 	public static void main(String[] args) {
