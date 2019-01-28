@@ -52,7 +52,7 @@
 
 ### 2.1 实现图
 
-![](/Users/lihao/workspace/eclipse-workspace/Design-Pattern/pic/工厂模式实现.png)
+![](./pic/工厂模式实现.png)
 
 ### 2.2 实现步骤
 
@@ -65,7 +65,7 @@
 
 ### 3.1 实现图
 
-![](/Users/lihao/workspace/eclipse-workspace/Design-Pattern/pic/抽象工厂模式实现.png)
+![](./pic/抽象工厂模式实现.png)
 
 ### 3.2 实现步骤
 
