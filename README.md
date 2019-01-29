@@ -135,3 +135,15 @@
 2. 创建接口实现类 VlcPlayer, Mp4Player
 3. 创建适配器 MediaAdapter
 4. 创建实现类 AudioPlayer
+
+## 7 装饰器模式（Decorator Pattern）
+
+<img src="./pic/装饰器模式实现图.png" width="70%" />
+
+#### 步骤：
+
+1. 创建一个接口 Shape
+2. 创建接口实现类 Rectangle; Circle
+3. 创建实现Shape接口的抽象装饰类 ShapeDecorator
+4. 创建继承ShapeDecorator的类 RedShapeDecorator，提供装饰方法
+5. 使用RedShapeDecorator来装饰Shape对象
