@@ -117,10 +117,21 @@
 
 <img src="./pic/建造者模式实现图.png" width="50%">
 
-步骤：
+#### 步骤：
 
 1. 分别创建表示食物条目和食物包装的接口 Item; Packing
 2. 创建接口实现类 Burger, ColdDrink; Wrapper, Bottle
 3. 创建继承的实体类 VegBurger, ChickenBurger; Pepsi, Coke
 4. 创建一个Meal类
 5. 创建一个MealBuilder类，负责创建Meal对象
+
+## 6 适配器模式（Adapter Pattern）
+
+<img src="./pic/适配器模式实现图.png" width="70%" />
+
+#### 步骤：
+
+1. 创建接口 MediaPlayer; AdvancedMediaPlayer
+2. 创建接口实现类 VlcPlayer, Mp4Player
+3. 创建适配器 MediaAdapter
+4. 创建实现类 AudioPlayer
