@@ -61,7 +61,7 @@
 3. 创建一个工厂，生成基于给定信息的实体类的对象
 4. 使用工厂，获取相应的实体对象
 
-## 3 抽象工厂模式
+## 3 抽象工厂模式（Abstract Factory Pattern）
 
 ### 3.1 实现图
 
@@ -74,3 +74,53 @@
 3. 为形状和颜色创建抽象工厂类 AbstractFactory
 4. 创建工厂类继承抽象工厂类 ShapeFactory extends AbstractFactory
 5. 创建工厂创造器类，通过相关信息生成指定工厂
+
+## 4 单例模式（Singleton Pattern）
+
+<img src="./pic/单例模式实现.png" width="30%">
+
+#### 步骤：
+
+1. 创建一个类
+
+   ```java
+   public class SingleObject {
+   	// 创建一个对象
+   	private static SingleObject instance=new SingleObject();
+   	// 私有构造函数，不会被实例化
+   	private SingleObject() {
+   	}
+   	// 获取唯一可用的对象
+   	public static SingleObject getInstance() {
+   		return instance;
+   	}
+   	public void showMessage() {
+   		System.out.println("hello world.");
+   	}
+   }
+   ```
+
+2. 从类中获取对象
+
+   ```java
+   public class SingletonPatternDemo {
+   	public static void main(String[] args) {
+   		// 获取唯一可用对象
+   		SingleObject instance = SingleObject.getInstance();
+   		instance.showMessage();
+   	}
+   }
+   ```
+
+
+## 5 建造者模式（Builder Pattern）
+
+<img src="./pic/建造者模式实现图.png" width="50%">
+
+步骤：
+
+1. 分别创建表示食物条目和食物包装的接口 Item; Packing
+2. 创建接口实现类 Burger, ColdDrink; Wrapper, Bottle
+3. 创建继承的实体类 VegBurger, ChickenBurger; Pepsi, Coke
+4. 创建一个Meal类
+5. 创建一个MealBuilder类，负责创建Meal对象
