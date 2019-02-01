@@ -179,3 +179,19 @@
 1. 创建Subject类，包含通知所有观察者的方法
 2. 创建Observer抽象类
 3. 创建实体观察者类BinaryObserver ....
+
+## 10 代理模式（Proxy Pattern）
+
+意图：为其他对象提供一种代理已控制这个对象的访问。
+
+<img src="./pic/代理模式实现图.png" width="70%" />
+
+#### 步骤：
+
+1. 创建接口 Image
+2. 创建实现类 RealImage; ProxyImage
+
+## 11 命令模式（Command Pattern）
+
+**意图：**将一个请求封装成一个对象，从而使您可以用不同的请求对客户进行参数化。
+
